@@ -1,0 +1,22 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljjrhm/personal.git"
+  },
+  "keywords": [
+    "personal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljjrhm/personal/issues"
+  },
+  "homepage": "https://github.com/ljjrhm/personal#readme"
+}
