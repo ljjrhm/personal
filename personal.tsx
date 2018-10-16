@@ -1,25 +1,25 @@
 // 导入样式
 import "./personal.less";
-import { BasePage, PageRegister } from ".../../../src/framework/component/page";
-import { ParseUrl } from "../../../src/framework/basic/parseUrl";
-import { PageSource } from "../../../src/framework/component/pageSource";
-import { Cookie } from "../../../src/framework/basic/cookie";
-import { ReactDOM } from "../../../src/framework/component/react-dom";
-import { React } from "../../../src/framework/component/react";
-import { PageEvent, PageType } from "../../../src/framework/component/pageEvent";
-import { Json } from "../../../src/framework/basic/json";
-import { Key } from "../../../src/framework/basic/key";
-import { Focus } from "../../../src/framework/component/focus";
+import { BasePage, PageRegister } from "../../src/framework/component/page";
+import { ParseUrl } from "../../src/framework/basic/parseUrl";
+import { PageSource } from "../../src/framework/component/pageSource";
+import { Cookie } from "../../src/framework/basic/cookie";
+import { ReactDOM } from "../../src/framework/component/react-dom";
+import { React } from "../../src/framework/component/react";
+import { PageEvent, PageType } from "../../src/framework/component/pageEvent";
+import { Json } from "../../src/framework/basic/json";
+import { Key } from "../../src/framework/basic/key";
+import { Focus } from "../../src/framework/component/focus";
 import { HeaderModule } from "../../src/component/head/head";
-import { CityInfo, CityPath, ProviceCode, CityEntity, cityName } from '../../../src/models/cityInfo';
-import { CommonLogic } from '../../../src/logics/commonLogic';
-import { ToastModule } from '../../../src/component/toast/toast';
-import { HElement } from '../../../src/framework/basic/helement';
+import { CityInfo, CityPath, ProviceCode, CityEntity, cityName } from '../../src/models/cityInfo';
+import { CommonLogic } from '../../src/logics/commonLogic';
+import { ToastModule } from '../../src/component/toast/toast';
+import { HElement } from '../../src/framework/basic/helement';
 
 //异步加载图片
-const shoucang = require('../../../src/package/images/personal/shoucang.png');
-const yuyue = require('../../../src/package/images/personal/yuyue.png')
-const zhuxiao = require('../../../src/package/images/personal/logout.png')
+const shoucang = require('../../src/package/images/personal/shoucang.png');
+const yuyue = require('../../src/package/images/personal/yuyue.png')
+const zhuxiao = require('../../src/package/images/personal/logout.png')
 enum MType {
     Page,
     Head,
