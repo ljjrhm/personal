@@ -1,8 +1,8 @@
 {
-  "name": "personal",
+  "name": "@lijj/personal",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "personal.tsx",
   "scripts": {
     "test": "test"
   },
